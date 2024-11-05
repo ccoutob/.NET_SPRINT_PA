@@ -24,10 +24,18 @@ Nosso sistema fornece serviços de recomendação de negócios juntamente com um
 <li>Otimizar campanhas de marketing para maximizar o ROI. </li>
 <li>• Fornece suporte e assistência personalizada aos clientes por meio de um assistente virtual inteligente.</li>
 
+<h2>Explicação sobre IA generativa 📝</h2>
+
+- A API utiliza ML.NET para fornecer sugestões de produtos com base nas avaliações dos usuários. O modelo é treinado com esses dados e, posteriormente, é possível solicitar recomendações ao informar o CPF e o produto de interesse. A recomendação é categorizada como "Altamente Recomendado", "Recomendado" ou "Não Recomendado", conforme a pontuação gerada pelo modelo.
+
+<h2>Funcionalidades 🌐</h2>
+
+- Conexão com serviços externos: A API integra-se à API do OpenWeather para obter informações meteorológicas.
+- Sugestão de produtos: Emprega ML.NET para criar recomendações baseadas nas avaliações dos produtos.
+
 ## ❗❗ Princípios de Clean Code e SOLID ❗❗
 <li> Single Responsibility Principle: Cada classe tem uma única responsabilidade.</li>
 <li> Dependency Injection: Utilizamos injeção de dependência para promover a testabilidade e reduzir o acoplamento.</li>
-<li> Utilize os links de cadastros apresentados na home e use a navbar para acessar a lista de dados de cada classe/li>
 
 <h1> Como Executar </h1>
 Clone o repositório. <br>
